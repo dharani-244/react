@@ -1,0 +1,19 @@
+.game {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  background: #f5f5dc;
+}
+
+.panda {
+  position: absolute;
+  font-size: 60px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.panda:hover {
+  transform: scale(1.2);
+}
